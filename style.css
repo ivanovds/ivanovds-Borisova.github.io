@@ -479,10 +479,11 @@ textarea {
     opacity: 0.8;
     height:45px; 
     width:45px;
+    transition: background 1s;
+     border-radius: 50%;
 }
 #btn-up:hover{
   background-color: #7f8084;
-    border-radius: 50%;
     opacity: 0.9;
 }
 /*######################################################## */
