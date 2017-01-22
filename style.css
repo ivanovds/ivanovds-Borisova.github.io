@@ -283,8 +283,7 @@ figcaption{
 #slides{ 
 position: relative;
 list-style-type: none;
-height:85%;
-    
+height: 626.4px;
 }
 .slide{
 position: absolute;
@@ -301,45 +300,124 @@ z-index: 1;
 -o-transition: opacity 1s;
 transition: opacity 1s;
 }
-
-@media only screen and (max-width: 990px){
+@media only screen and (min-width: 1920px){
  #slides{ 
-height: 75%;
-} 
-}@media only screen and (max-width: 840px){
- #slides{ 
-height: 65%;
+height: 880.4px;
 } 
 }
-}@media only screen and (max-width: 750px){
+ @media only screen and (max-width: 1920px){
  #slides{ 
-height: 55%;
+height: 880.4px;
 } 
 }
-}@media only screen and (max-width: 650px){
+@media only screen and (max-width: 1680px){
  #slides{ 
-height: 50%;
+height: 770.4px;
 } 
 }
-}@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1600px){
  #slides{ 
-height: 45%;
-}    
-}
-@media only screen and (max-width: 575px){
- #slides{ 
-height: 42.5%;
+height: 733.7px;
 } 
 }
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 1680px){
  #slides{ 
-height: 40%;
+height: 770.4px;
 } 
 }
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1536px){
  #slides{ 
-height: 35%;
+height: 704.3px;
+} 
+}
+@media only screen and (max-width: 1440px){
+ #slides{ 
+height: 659.8px;
+} 
+}
+@media only screen and (max-width: 1360px){
+ #slides{ 
+height: 623.6px;
+} 
+}
+@media only screen and (max-width: 1366px){
+ #slides{ 
+height: 626.4px;
+} 
+}
+@media only screen and (max-width: 1280px){
+ #slides{ 
+height: 587px;
+} 
+}
+@media only screen and (max-width: 1024px){
+ #slides{ 
+height: 469.6px;
+} 
+}
+@media only screen and (max-width: 960px){
+ #slides{ 
+height: 440.2px;
+} 
+}
+@media only screen and (max-width: 854px){
+ #slides{ 
+height: 391.6px;
+} 
+}
+@media only screen and (max-width: 800px){
+ #slides{ 
+height: 366.8px;
+} 
+}
+@media only screen and (max-width: 784px){
+ #slides{ 
+height: 359.5px;
+} 
+}
+@media only screen and (max-width: 768px){
+ #slides{ 
+height: 352.2px;
+} 
+}
+@media only screen and (max-width: 720px){
+ #slides{ 
+height: 330.2px;
+} 
+}
+@media only screen and (max-width: 640px){
+ #slides{ 
+height: 293.5px;
+} 
+}
+@media only screen and (max-width: 512px){
+ #slides{ 
+height: 234.8px;
+} 
+}
+@media only screen and (max-width: 480px){
+ #slides{ 
+height: 220.1px;
+} 
+}
+@media only screen and (max-width: 400px){
+ #slides{ 
+height: 183.4px;
+} 
+}
+@media only screen and (max-width: 320px){
+ #slides{ 
+height: 146.7px;
+} 
+}
+@media only screen and (max-width: 256px){
+ #slides{ 
+height: 117.4px;
+} 
+}
+@media only screen and (max-width: 160px){
+ #slides{ 
+height: 73.4px;
 } 
 }
 .showing {
